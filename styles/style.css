@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plate {
+    white-space: nowrap;
+}
+
+.plate div, a {
+    cursor: default;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 150px;
+    display: inline-block;
+    transition-duration: 0.35s;
+    text-decoration: none;
+}
+
+#t1 {
+    color: dodgerblue;
+    cursor: default;
+}
+
+#i1 {
+    color: hotpink;
+}
+
+#e1 {
+    color: rgba(30, 100, 255, 1);
+}
+
+#a {
+   color: orangered;
+}
+
+#t2 {
+    color: rgba(30, 122, 255, 1);
+}
+
+
+#i2 {
+    color: black;
+}
+
+
+
+.letter {
+    cursor: default;
+}
+
+
+.plate div.blur, a.blur {
+    filter: blur(3px);
+}
