@@ -48,12 +48,9 @@ body {
     color: black;
 }
 
-
-
 .letter {
     cursor: default;
 }
-
 
 .plate div.blur, a.blur {
     filter: blur(3px);
